@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Cyber Survival</title>
+    <title>Unity WebGL Player | JBT3 FPS</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=1344 height=756 style="width: 1344px; height: 756px; background: #FFFFFF"></canvas>
-    <script src="Build/Cyber Survival.loader.js"></script>
+    <canvas id="unity-canvas" width=1344 height=756 style="width: 1344px; height: 756px; background: #231F20"></canvas>
+    <script src="Build/JBT3 FPS.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,13 +25,13 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Cyber Survival.data",
-        frameworkUrl: "Build/Cyber Survival.framework.js",
-        codeUrl: "Build/Cyber Survival.wasm",
+        dataUrl: "Build/JBT3 FPS.data",
+        frameworkUrl: "Build/JBT3 FPS.framework.js",
+        codeUrl: "Build/JBT3 FPS.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "JBT3 Studios",
-        productName: "Cyber Survival",
-        productVersion: "1.3",
+        companyName: "Matteoodev (fiverr)",
+        productName: "JBT3 FPS",
+        productVersion: "4.0.0",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
